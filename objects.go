@@ -4,7 +4,7 @@ import (
 	"sync"
 )
 
-type ObjectId int32
+type ObjectId int
 
 var manager struct {
 	sync.Mutex
